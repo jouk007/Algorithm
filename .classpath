@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry excluding="PriorityQueue/boj_11279/|PriorityQueue/boj_1927/|PriorityQueue/boj_2696/|SegmentTree/boj_10868/|SegmentTree/boj_10868/Main.java|SegmentTree/boj_2042/|SegmentTree/boj_2042/Main.java|SegmentTree/boj_2357/|SegmentTree/boj_2357/Main.java|SegmentTree/boj_6549/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
