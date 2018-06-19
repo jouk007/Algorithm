@@ -4,10 +4,11 @@ import java.util.*;
 import java.io.*;
 
 class Main {
+	static int[][] A;
 	public static void main(String[] args) {
 		Scanner S = new Scanner(System.in);
 		int N = S.nextInt(), M = S.nextInt(), V = S.nextInt();
-		int A[][] = new int[N+1][N+1];
+		A = new int[N+1][N+1];
 		int C[] = new int[N+1];
 		int i = 0;
 		
@@ -45,6 +46,49 @@ class Main {
 			}
 		}
 	}
+	static int[] vbfsCheck;
+    static void BFS(int Start, int size) {
+    	Deque<Integer> dq = new LinkedList<>();
+    	dq.add(Start);
+		vbfsCheck[Start]++;
+    	int p;
+    	while(!dq.isEmpty()) {
+    		p = dq.remove();
+    		System.out.print(p+" ");
+	    	for(int i=1; i<=size; i++) {
+				if(A[p][i]!=0 && vbfsCheck[i]==0) {
+					dq.add(i);
+		    		vbfsCheck[i]++;
+				}
+	    	}
+    	}
+    }    
+	static int[] vdfsCheck;
+    static void DFS(int Start, int size) {
+    	Deque<Integer> dq = new LinkedList<>();
+    	
+    	dq.push(Start);
+    	int p = Start;
+		System.out.print(p+" ");
+		vdfsCheck[p]++;
+		
+    	while(!dq.isEmpty()) {
+    		p = dq.peek();
+    		boolean flag = false;
+	    	for(int i=1; i<=size; i++) {
+				if(A[p][i]!=0 && vdfsCheck[i]==0) {
+					System.out.print(i+" ");
+					dq.push(i);
+					vdfsCheck[i]++;
+		    		flag = true;
+					break;
+				}
+	    	}
+	    	if(!flag) 
+	    		dq.pop();
+	    	
+    	}
+    }
 }
 /* 
 public class Main{
