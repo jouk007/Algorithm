@@ -1,4 +1,4 @@
-package DinamicProgramming.boj_2579;		
+package DynamicProgramming.boj_2579;		
 
 import java.util.*;
 import java.io.*;
