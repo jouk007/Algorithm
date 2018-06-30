@@ -1,4 +1,4 @@
-package DynamicProgramming.boj_2292;
+package Math.Basic.boj_2292;
 
 import java.util.*;
 import java.io.*;
@@ -12,11 +12,12 @@ public class Main {
 		}
 		int j = 1;
 		long M[] = new long[20000];
-		for(long i=1; i<=1000000050; i=i+6*(j++))  
+		for(int i=1; i<=1002000000; i=i+6*(j++))  {
 			M[j] = i;
+		}
 		
 		for(j=0; j<M.length; j++) {
-			if(M[j] > N) {
+			if(M[j] >= N) {
 				System.out.println(j);
 				break;
 			}
