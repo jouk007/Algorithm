@@ -17,23 +17,16 @@ public class Main {
 					byte[] bBuffer = null;
 					int cnt = 0;
 					if(bi==0b1){
-						while(bi==0b1){
+						while(bi==0b1)
 							bBuffer[cnt++]=0b1;
-						}
+						while(bi==0b0)
+							bBuffer[cnt++]=0b0;
+						while(bi==0b1)
+							bBuffer[cnt++]=0b1;
 					}else continue;
-//					if(bi==0b1){
-//						 
-//					 }
-//					   while(x[i++]==1){
-//					    bitbuffer.add1
-//					   }
-//					   while(x[i++]==0){
-//					    bitbuffer.add0
-//					   }	
-//					   while(x[i++]==1){
-//					    bitbuffer.add1
-//					   }
-//					switch (bitbuffer)
+					switch(bBuffer.){
+					
+					}
 //						0b1101
 //						0b11001
 //						0b10011
