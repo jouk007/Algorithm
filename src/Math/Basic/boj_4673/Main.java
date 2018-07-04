@@ -3,9 +3,15 @@ package Math.Basic.boj_4673;
 import java.util.*;
 import java.io.*;
 public class Main {
-	public static void main(String []args){
-//		int i = 0b10000000000000000000000000000000;
-		int i = 0b11111111111111111111111111111111;
-		System.out.println(i);
+	public static boolean solution(int[] arr) {
+        Arrays.sort(arr); 
+        return (arr[arr.length-1]==arr.length);
+    
+    }
+	public static void main(String []args) throws NumberFormatException, IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int[] T = {4,1,3};
+		System.out.println(solution(T));
+		
 	}
-}
+}d
