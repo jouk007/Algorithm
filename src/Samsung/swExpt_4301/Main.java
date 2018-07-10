@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_4301;
+package Samsung.swExpt_4301;
 /*
  * 
  * M = 1인 경우, 아래와 같이 한칸씩 옮기면서 모두 확인 해 본다.

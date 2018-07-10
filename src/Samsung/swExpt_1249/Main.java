@@ -1,4 +1,4 @@
-package Dijkstra.swExpt_1249;
+package Samsung.swExpt_1249;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package SWExpt_1767;
+package Samsung.swExpt_1767;
 
 import java.util.*;
 

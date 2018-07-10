@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_3752;
+package Samsung.swExpt_3752;
 /*
  * 
  * 0 2 3 5

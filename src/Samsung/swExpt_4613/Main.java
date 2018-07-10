@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_4613;
+package Samsung.swExpt_4613;
 
 import java.util.*;
 public class Main {

@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_3074;
+package Samsung.swExpt_3074;
 
 import java.util.*;
 

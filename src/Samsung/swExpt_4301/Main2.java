@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_4301;
+package Samsung.swExpt_4301;
 
 import java.util.*;
 import java.io.*;

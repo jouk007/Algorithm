@@ -1,4 +1,4 @@
-package DynamicProgramming.swExpt_3752;
+package Samsung.swExpt_3752;
 
 import java.util.*;
 p1111ublic class Main {
