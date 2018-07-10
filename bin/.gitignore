@@ -1,17 +1,21 @@
-/DinamicProgramming/
-/Sort/
 /BFS_DFS/
 /BackTracking/
+/BitOperation/
 /BruteForce/
+/Dijkstra/
+/DynamicProgramming/
+/Graph/
 /Math/
 /PriorityQueue/
-/SegmentTree/
-/DynamicProgramming/
-/String/
-/BitOperation/
-/Stack/
 /Queue/
+<<<<<<< HEAD
 /Graph/
 /ShinhanDS/
 /SWExpt_1767/
 /SWExpt_1240/
+=======
+/SegmentTree/
+/Sort/
+/Stack/
+/String/
+>>>>>>> branch 'master' of https://github.com/twooopark/Algorithm
